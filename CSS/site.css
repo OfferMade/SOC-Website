@@ -1,0 +1,49 @@
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bg-navbar {
+    background-color: rgb(25, 25, 25);
+}
+
+.navbar {
+    padding-top: 0.1rem !important;
+    padding-bottom: 0.1rem !important;
+}
+
+
+
+.img1 {
+    height: 600px;
+    object-fit: cover;
+    filter: blur(3px);
+}
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn1{
+    width: 150px !important;
+}
+
+.img2{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+    opacity: 65%;
+}
+
+.card1{
+    height: 300px
+}
+
+
+
+car
