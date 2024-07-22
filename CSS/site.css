@@ -1,3 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #9c0000;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(25, 25, 25);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 .roboto-medium {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -19,15 +34,52 @@
     height: 600px;
     object-fit: cover;
     filter: blur(1px);
+    
+}
+.imgAbout {
+    height: 600px;
+    object-fit: cover;
+    object-position: middle;
+    filter: blur(1px);
 }
 
 .centered {
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.centered2 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered3 {
+    
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered4 {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centeredp2 {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centeredp3 {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .btn1{
     width: 150px !important;
 }
@@ -46,6 +98,10 @@
 
 .row2{
     
+}
+
+.imgAbout{
+    filter: blur(3px) !important;
 }
 
 
